@@ -1,0 +1,110 @@
+<!-- Akhil Sai Bodduna-->
+<!-- 0908974 -->
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EEE8AA; 
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Yellow text color on hover */
+}
+
+/* About section styles */
+#about {
+    padding: 20px;
+    margin: 20px;
+    background-color: #DDA0DD; 
+    border-radius: 5px;
+}
+
+#about p {
+    margin-bottom: 20px;
+}
+
+/* Portfolio section styles */
+#portfolio {
+    padding: 20px;
+    margin: 20px;
+    background-color: #87CEFA; 
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact form styles */
+#contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #4682B4; 
+    border-radius: 5px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+input[type="submit"] {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Slightly darker gray background color on hover */
+}
